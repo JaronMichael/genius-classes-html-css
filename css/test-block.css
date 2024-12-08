@@ -1,19 +1,48 @@
- * {
-  box-sizing: border-box;
- }
+* {
+box-sizing: border-box;
+}
  
-.flex-container {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+.container {
+  position: relative;
+  padding: 30px;
+  border: 1px dotted black;
 }
 
- .item {
-  flex-basis: 100px;
+.parent {
+  position: relative;
+  padding: 20px;
+  border: 1px dotted black;
+}
+
+.item.red {
+  position: relative;
+  z-index: 2;
+  top: 20px;
+  left: 20px;
+  width: 150px;
+  height: 150px;
+  background-color: red;
+  overflow: auto;
+}
+
+.item.green {
+  position: absolute;
+  z-index: 1;
+  width: 100px;
   height: 100px;
-  background-color: burlywood;
-  padding: 10px;
-  border: 6px solid darkred;
-  margin: 10px;
+  background-color: green;
 }
 
+.item.blue {
+  position: relative;
+  z-index: 3;
+  width: 50px;
+  height: 50px;
+  background-color: blue;
+}
+
+.section-title {
+  position: sticky;
+  top: 0;
+  background-color: burlywood;
+}
