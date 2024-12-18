@@ -1,20 +1,27 @@
 @import './utils/fonts';
 @import './utils/variables';
+@import './utils/texts';
 @import './base';
 @import './utils/utils';
 
+@import './components/carousel';
 @import './components/buttons';
 @import './components/links';
-@import './components/header';
-@import './components/hero';
-@import './components/adventeges';
-@import './components/tradition';
-@import './components/chief';
-@import './components/formats';
-@import './components/carousel';
-@import './components/contact';
-@import './components/footer';
-@import './components/modal';
+@import './components/chief-card';
+@import './components/formats-card';
+@import './components/form-terms';
+@import './components/input';
+
+@import './layouts/header';
+@import './layouts/hero';
+@import './layouts/adventeges-section';
+@import './layouts/tradition';
+@import './layouts/chiefs-section';
+@import './layouts/formats-section';
+@import './layouts/contact-section';
+@import './layouts/footer';
+@import './layouts/modal';
+@import './layouts/sections';
 
 @import './utils/mixins';
 
