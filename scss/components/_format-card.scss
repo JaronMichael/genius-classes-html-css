@@ -9,12 +9,8 @@
   border: 1px solid lightgray;
   /* Remove */
   border-radius: 16px;
-  transition: transform .3s;
+  overflow: hidden;
   cursor: pointer;;
-
-  &:hover {
-    transform: scale(1.1);
-  }
 
   &__image {
     position: absolute;

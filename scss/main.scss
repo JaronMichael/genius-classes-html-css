@@ -4,13 +4,14 @@
 @import './base';
 @import './utils/utils';
 
-@import './components/carousel';
+@import './components/carousel-button';
 @import './components/buttons';
 @import './components/links';
 @import './components/chief-card';
-@import './components/formats-card';
+@import './components/format-card';
 @import './components/form-terms';
 @import './components/input';
+@import './components/pagination';
 
 @import './layouts/header';
 @import './layouts/hero-section';
